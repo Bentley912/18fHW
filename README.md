@@ -36,4 +36,4 @@ We are using [Jasmine.js](https://jasmine.github.io/) for the testing suite. Thi
 
 # Issues 
 
-* I had 3 hours to complete the code, documentation and testing. I ended up making functinal code, but not necessarily _testable_ code. The JS logic can be written in a way that includes more standalone functions that can have arguments passed into them. # 18fHW
+* I had 3 hours to complete the code, documentation and testing. I ended up making functinal code, but not necessarily _testable_ code. The JS logic can be written in a way that includes more standalone functions that can have arguments passed into them. 
