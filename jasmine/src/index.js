@@ -28,16 +28,14 @@ var addMember = function(age,rel, smoker){
         }
         else if (rel === ''){
             alert('Relationship Cannot be left blank')
-        }
-        
+        } 
         else{
-            //Pull value from rel and smoker form input
+            //Pull value from rel, age and smoker form inputs
             age = document.getElementsByName('age')[0].value;
             rel = document.getElementsByName('rel')[0].value;
             smoker = document.getElementsByName('smoker')[0];
             smokerCheck();//Verify is smoker box is checked;
             //increment id for each household member
-
             id++;
             hMember = {
                 memberId:id,

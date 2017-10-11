@@ -28,15 +28,13 @@ button[0].addEventListener('click', function(e){
     else if (rel === ''){
         alert('Relationship Cannot be left blank')
     }
-    
     else{
         //Pull value from rel and smoker form input
         age = document.getElementsByName('age')[0].value;
         rel = document.getElementsByName('rel')[0].value;
         smoker = document.getElementsByName('smoker')[0];
-        smokerCheck();//Verify is smoker box is checked;
+        smokerCheck();//Verify smoker box is checked or unchecked and pass string to smoker var
          //increment id for each household member
-        
         id++;
         hMember = {
             memberId:id,
