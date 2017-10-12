@@ -119,10 +119,10 @@ submit.addEventListener('click', function(e){
 
 var pushObject = function(){
     var displaySection = document.getElementsByClassName('debug')[0];
-    houseHouldText = document.createTextNode(houseHold);
+    houseHouldText = document.createTextNode(JSON.stringify(houseHold, null, 1));
     console.log(displaySection);
     displaySection.appendChild(houseHouldText);
-    displaySection.style.dislay = 'block';
+    displaySection.style.display = 'block';
     displayDiv.style.display = 'none'; 
 }    
 

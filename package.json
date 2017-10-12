@@ -1,0 +1,33 @@
+{
+  "name": "18f",
+  "version": "1.0.0",
+  "description": "This is a simple exercise to create a household builder that allows a user to input data and creat household members. the user can add as many householder members as they want and then submit those user to create a household.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "phantom-jasmine": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.0",
+    "zombie": "^5.0.7"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bentley912/18fHW.git"
+  },
+  "author": "Pbentley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bentley912/18fHW/issues"
+  },
+  "homepage": "https://github.com/Bentley912/18fHW#readme"
+}
